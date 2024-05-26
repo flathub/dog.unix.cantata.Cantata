@@ -12,6 +12,7 @@ finish-args:
   - --filesystem=xdg-music
   - --filesystem=/run/mpd
   - --filesystem=xdg-run/mpd
+  - --talk-name=org.kde.StatusNotifierWatcher
 modules:
   - name: cantata
     buildsystem: cmake-ninja
@@ -20,5 +21,5 @@ modules:
     sources:
       - type: "git"
         url: "https://github.com/nullobsi/cantata.git"
-        tag: "v3.0.2"
-        commit: "e234ae611dc37609656088b0459acc9814864520"
+        tag: "v3.1.0"
+        commit: "ae234d4e56d5ea376e07c9df74d5acc8428683ed"
