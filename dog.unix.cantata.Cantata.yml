@@ -22,4 +22,4 @@ modules:
       - type: "git"
         url: "https://github.com/nullobsi/cantata.git"
         tag: "v3.2.0"
-        commit: "9f2ec2d6918aae80ba710e003bce7231cea95b0b"
+        commit: "cf195772188772363b5326c9f227d9efb41fe438"
